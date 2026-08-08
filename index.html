@@ -231,44 +231,43 @@ font-size:32px;
 header{
 padding:8px 5px;
 }
+@media (max-width: 768px){
   
-@media (max-width: 768px) {
-
-  @media (max-width: 768px) {
-
-    nav {
-        display: block !important;
-        width: 100% !important;
-    }
-
-    nav ul {
-        display: flex !important;
-        flex-direction: row !important;
-        flex-wrap: nowrap !important;
-        justify-content: center !important;
-        align-items: center !important;
-        gap: 3px !important;
-        width: 100% !important;
-        padding: 0 !important;
-        margin: 0 3px !important;
-    }
-
-    nav ul li {
-        display: block !important;
-        flex: 1 1 auto !important;
-        text-align: center !important;
-        white-space: nowrap !important;
-    }
-
-    nav ul li a {
-        display: block !important;
-        font-size: 9px !important;
-        white-space: nowrap !important;
-    }
+header {
+    flex-direction: column;
+    align-items: center;
 }
 
+nav {
+    display: block !important;
+    width: 100% !important;
+}
 
+nav ul {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 4px !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
 
+nav ul li {
+    flex: 0 0 auto !important;
+    white-space: nowrap !important;
+}
+
+nav ul li a {
+    display: block !important;
+    font-size: 10px !important;
+    margin: 0 !important;
+    padding: 0 2px !important;
+    white-space: nowrap !important;
+}
+  
 }
 
 </style>
