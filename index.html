@@ -242,20 +242,20 @@ padding:8px 5px;
 
 nav {
     width: 100%;
-    overflow: hidden;
+   
 }
 
 nav ul {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space between;
     align-items: center;
     width: 100%;
     margin: 0;
-    padding: 0 2px;
+    padding: 0 8px;
     list-style: none;
     box-sizing: border-box;
-    gap: 2px;
+  
 }
 
 nav ul li {
@@ -272,7 +272,7 @@ nav ul li a {
     font-weight: 600;
     white-space: nowrap;
     margin: 0;
-    padding: 0 2px;
+   
 }
   }
 
@@ -280,17 +280,14 @@ nav ul li a {
 @media (max-width: 600px) {
 
     nav ul {
-        gap: 1px;
+       justify-content: space-between 
         padding: 0 1px;
     }
 
-    nav ul li {
-        flex: 0 1 auto;
-    }
-
+ 
     nav ul li a {
-        font-size: 9px;
-        padding: 0 1px;
+        font-size: 10px;
+        
     }
 }
     
